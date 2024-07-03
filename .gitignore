@@ -1,0 +1,47 @@
+# Python specific ignores
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+__pycache__
+
+# Virtual environment
+venv
+.env
+.venv
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# FastAPI specific ignores
+# Ignore database files
+*.db
+*.sqlite3
+
+# Ignore static and media files (if any)
+staticfiles/
+mediafiles/
+
+# Ignore configuration files
+*.local
+*.config
+
+# Ignore logs and debug files
+*.log
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore pytest cache
+.pytest_cache/
+.tox/
